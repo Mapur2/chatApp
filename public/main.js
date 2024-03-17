@@ -27,6 +27,7 @@ function sendMessage(){
     socket.emit('message',data)
     addMessage(true,data)
     messageInp.value=""
+    scrollBottom()
 }
 
 messageForm.addEventListener('submit',(e)=>{
