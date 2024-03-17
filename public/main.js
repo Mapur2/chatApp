@@ -51,6 +51,7 @@ function addMessage(isOwnMessage,data) {
   </li>`
 
   messageContain.innerHTML+=element
+  scrollBottom()
 }
 
 const scrollBottom=()=>{
